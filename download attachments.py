@@ -65,7 +65,7 @@ for emailid in reversed(items):
                     continue;
                 
 		#HERE IT CREATES DIRECTORIES ACCORDING TO THE COLLEGE AND BRANCH 
-		#I CAN CHANGE THIS TO JUST DOWNLOAD THE FILE AND DONT CREATE THE SUBFOLDERS TOO 
+		#I CAN CHANGE THIS TO JUST DOWNLOAD THE FILE AND NOT CREATE THE SUBFOLDERS TOO 
                 if filename[len(s)+1 : len(s)+3 ].upper() == "UI":
                     college = "IIIT"
                     y = int(filename[len(s)+3 : len(s) + 5])
