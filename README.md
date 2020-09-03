@@ -5,8 +5,14 @@ This is especially useful for the teachers who need students' assigments to be m
 Instead of manually downloading hundereds of attachments, this python script downloads them for you.
 
 # HOW TO USE
-You need to edit and enter your username and gmail password int the python file for the script to work.
 
-You may need to enable access to less secure apps in your account here 
+
+1)You may need to enable access to less secure apps in your account here 
 
 https://support.google.com/accounts/answer/6010255?p=lsa_blocked&hl=en&visit_id=637342192239728991-1037744999&rd=1
+
+2)Edit and enter your username and gmail password into the script
+
+3)Change the Directory where you want to save your attachments
+
+4)Set the keywords which the filename should start with <b>keyword and underscore</b>(Eg. if the keyword is <b>"IMPORTANT"</b> , filename should be <b>"IMPORTANT_(any filename here)"</b>
